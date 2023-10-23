@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/components/custom-button/custom-button.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "A very simple custom button.",
+          "name": "CustomButton",
+          "members": [
+            {
+              "kind": "field",
+              "name": "label",
+              "privacy": "public",
+              "type": {
+                "text": "string"
+              },
+              "description": "the label displayed within the button",
+              "default": "''",
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "intent",
+              "privacy": "public",
+              "type": {
+                "text": "'primary'|'secondary'"
+              },
+              "description": "the style of the button, `primary` stands out while `secondary` is more subtle",
+              "default": "'primary'",
+              "attribute": "intent",
+              "reflects": true
+            }
+          ],
+          "attributes": [
+            {
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "description": "the label displayed within the button",
+              "default": "''",
+              "fieldName": "label"
+            },
+            {
+              "name": "intent",
+              "type": {
+                "text": "'primary'|'secondary'"
+              },
+              "description": "the style of the button, `primary` stands out while `secondary` is more subtle",
+              "default": "'primary'",
+              "fieldName": "intent"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "custom-button",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "CustomButton",
+          "declaration": {
+            "name": "CustomButton",
+            "module": "src/components/custom-button/custom-button.js"
+          }
+        },
+        {
+          "kind": "custom-element-definition",
+          "name": "custom-button",
+          "declaration": {
+            "name": "CustomButton",
+            "module": "src/components/custom-button/custom-button.js"
+          }
+        }
+      ]
+    }
+  ]
+}
