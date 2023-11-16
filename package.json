@@ -19,15 +19,15 @@
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "^0.9.0",
     "@rollup/plugin-commonjs": "^25.0.7",
-    "@storybook/addon-essentials": "^7.5.1",
-    "@storybook/addon-links": "^7.5.1",
-    "@storybook/web-components": "^7.5.1",
+    "@storybook/addon-essentials": "^7.5.3",
+    "@storybook/addon-links": "^7.5.3",
+    "@storybook/web-components": "^7.5.3",
     "@web/dev-server": "^0.3.6",
     "@web/dev-server-rollup": "^0.5.4",
     "@web/storybook-builder": "^0.1.5",
     "@web/storybook-framework-web-components": "^0.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "storybook": "^7.5.1"
+    "storybook": "^7.5.3"
   }
 }
